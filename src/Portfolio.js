@@ -84,7 +84,7 @@ export default function Portfolio() {
           <p>
             Guess a number between 1-100. You have 5 attempts and you get hints
             along the way. You also have the option of getting a much more
-            detailed hint. Built with HTML, CSS, Bootstrap, and Javascript.
+            detailed hint. Built with HTML, CSS, jQuery, and Javascript.
           </p>
           <img
             className="portfolio-image"
