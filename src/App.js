@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { Router } from 'react-router';
 import { Route } from 'react-router-dom';
-import logo from './images/logo.jpg';
+import profilePic from './images/profile-pic.jpg';
 import About from './About';
 import Navbar from './Navbar';
 import Footer from './Footer';
@@ -15,7 +15,7 @@ class App extends Component {
       <Router history={history}>
         <div className="App">
           <header className="App-header">
-            <img src={logo} className="App-logo" alt="logo" />
+            <img src={profilePic} className="profile-pic" alt="profile-pic" />
             <h1 className="App-title">Cecilia Chang</h1>
             <Navbar />
           </header>
