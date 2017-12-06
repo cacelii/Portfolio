@@ -67,7 +67,7 @@ export default function Portfolio() {
           <h3>React Native vs. Plain Old React</h3>
           <p>
             Explains the basic differences of React Native compared to regular
-            React.
+            React, utilizing examples from my Stackathon project, HungerMatch.
           </p>
           <img className="portfolio-image" src={BlogPost} alt="blog-post" />
           <button>
