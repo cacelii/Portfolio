@@ -1,5 +1,5 @@
 import React from 'react';
-import Carousel from './Carousel';
+import PhotoCarousel from './PhotoCarousel';
 import './App.css';
 
 export default function About() {
@@ -18,7 +18,7 @@ export default function About() {
         incorporate my two passions, tech and hospitality, and help make
         people's lives easier.
       </p>
-      <Carousel />
+      <PhotoCarousel />
     </div>
   );
 }
