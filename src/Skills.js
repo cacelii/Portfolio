@@ -3,7 +3,6 @@ import React from 'react';
 export default function Skills() {
   return (
     <div>
-      <h2>Skills</h2>
       <ul className="list">
         <li>Javascript</li>
         <li>React</li>

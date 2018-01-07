@@ -1,40 +1,26 @@
 .App {
   text-align: center;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
 }
 
-/* .App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 80px;
-} */
-
-.profile-pic {
-  height: 150px;
+.content {
+  flex: 1 0 auto;
+  padding: var(— space) var(— space) 0;
+  width: 100%;
 }
 
 .App-header {
   background-color: #222;
-  height: 220px;
   padding: 20px;
   color: white;
 }
 
 .App-title {
-  font-size: 1.5em;
+  font-size: 2em;
+  font-family: cursive;
 }
-
-.App-intro {
-  font-size: large;
-  margin: 1.5em;
-}
-
-/* @keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-} */
 
 nav {
   display: flex;
@@ -61,24 +47,25 @@ nav {
   box-shadow: #d3d3d3;
 }
 
-section {
-  box-sizing: border-box;
-  position: relative;
-  width: 100vw;
-  overflow: hidden;
-}
-
-#carousel {
+#about {
   display: flex;
-  justify-content: center;
   flex-direction: row;
-  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
 }
 
-#carousel img {
-  width: 325px;
-  height: 300px;
-  margin: 1em;
+#about img {
+  height: 375px;
+  align-self: center;
+  margin: 0 1em 0 5em;
+}
+
+#about p {
+  font-size: 30px;
+  text-align: left;
+  margin: 1em 3em 1em 2em;
+  align-self: center;
 }
 
 #footer {
@@ -99,13 +86,16 @@ section {
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: center;
+  align-items: center;
+  align-content: center;
 }
 
 .list li {
   padding: 1em;
   border: 2px solid lightskyblue;
   border-radius: 5em;
-  margin: 1em;
+  margin: 3em;
+  align-self: center;
 }
 
 .portfolio {
@@ -113,17 +103,17 @@ section {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  justify-content: center;
+  justify-content: space-around;
 }
 
 .portfolio li {
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: space-around;
   align-items: center;
-  width: 400px;
-  height: 400px;
-  margin: 1em;
+  width: 500px;
+  height: 500px;
+  margin: 0 3em 0 3em;
 }
 
 .portfolio-image {
@@ -131,10 +121,15 @@ section {
   height: 200px;
 }
 
+.description {
+  margin: -4em 2em -3em 2em;
+}
+
 button {
   width: 4em;
   height: 2em;
   font-size: 1em;
+  margin-top: -3em;
 }
 
 button a {

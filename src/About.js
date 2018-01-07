@@ -1,11 +1,12 @@
 import React from 'react';
-import PhotoCarousel from './PhotoCarousel';
+import profilePic from './images/profile-pic.jpg';
 import './App.css';
 
 export default function About() {
   return (
-    <div>
-      <p className="App-intro">
+    <div id="about">
+      <img src={profilePic} alt="profile-pic" />
+      <p>
         After working in the hospitality industry for 4 years, I traveled around
         the world for 3 years, teaching English, working at hostels and B&Bs,
         and performing administrative work in offices. During my experience
@@ -18,7 +19,6 @@ export default function About() {
         incorporate my two passions, tech and hospitality, and help make
         people's lives easier.
       </p>
-      <PhotoCarousel />
     </div>
   );
 }

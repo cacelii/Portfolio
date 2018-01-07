@@ -10,8 +10,36 @@ export default function Navbar() {
         </NavLink>
       </div>
       <div className="nav-item">
-        <NavLink to="/about" activeClassName="active">
+        <NavLink
+          to="/about"
+          activeStyle={{
+            fontWeight: 'bold',
+            color: 'lightskyblue'
+          }}
+        >
           About
+        </NavLink>
+      </div>
+      <div className="nav-item">
+        <NavLink
+          to="/skills"
+          activeStyle={{
+            fontWeight: 'bold',
+            color: 'lightskyblue'
+          }}
+        >
+          Skills
+        </NavLink>
+      </div>
+      <div className="nav-item">
+        <NavLink
+          to="/portfolio"
+          activeStyle={{
+            fontWeight: 'bold',
+            color: 'lightskyblue'
+          }}
+        >
+          Portfolio
         </NavLink>
       </div>
       <div className="nav-item">

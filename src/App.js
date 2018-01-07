@@ -3,10 +3,12 @@ import { Router } from 'react-router';
 import { Route } from 'react-router-dom';
 import profilePic from './images/profile-pic.jpg';
 import About from './About';
+import Skills from './Skills';
 import Navbar from './Navbar';
 import Footer from './Footer';
 import history from './history';
-import Home from './Home';
+import Portfolio from './Portfolio';
+import PhotoCarousel from './PhotoCarousel';
 import './App.css';
 
 class App extends Component {
@@ -14,13 +16,16 @@ class App extends Component {
     return (
       <Router history={history}>
         <div className="App">
-          <header className="App-header">
-            <img src={profilePic} className="profile-pic" alt="profile-pic" />
-            <h1 className="App-title">Cecilia Chang</h1>
-            <Navbar />
-          </header>
-          <Route exact path="/" component={Home} />
-          <Route exact path="/about" component={About} />
+          <div className="content">
+            <header className="App-header">
+              <h1 className="App-title">Cecilia Chang</h1>
+              <Navbar />
+            </header>
+            <Route exact path="/" component={PhotoCarousel} />
+            <Route exact path="/about" component={About} />
+            <Route exact path="/skills" component={Skills} />
+            <Route exact path="/portfolio" component={Portfolio} />
+          </div>
           <Footer />
         </div>
       </Router>
