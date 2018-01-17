@@ -1,11 +1,9 @@
 import React from 'react';
-import profilePic from './images/profile-pic.jpg';
 import './App.css';
 
 export default function About() {
   return (
     <div id="about">
-      <img src={profilePic} alt="profile-pic" />
       <p>
         After working in the hospitality industry for 4 years, I traveled around
         the world for 3 years, teaching English, working at hostels and B&Bs,

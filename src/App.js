@@ -2,7 +2,6 @@ import React, { Component } from 'react';
 import { Router } from 'react-router';
 import { Route } from 'react-router-dom';
 import profilePic from './images/profile-pic.jpg';
-import About from './About';
 import Skills from './Skills';
 import Navbar from './Navbar';
 import Footer from './Footer';
@@ -18,11 +17,9 @@ class App extends Component {
         <div className="App">
           <div className="content">
             <header className="App-header">
-              <h1 className="App-title">Cecilia Chang</h1>
               <Navbar />
             </header>
             <Route exact path="/" component={PhotoCarousel} />
-            <Route exact path="/about" component={About} />
             <Route exact path="/skills" component={Skills} />
             <Route exact path="/portfolio" component={Portfolio} />
           </div>
