@@ -66,9 +66,9 @@ export default function Navbar() {
           </NavLink>
         </div>
         <div className="nav-item">
-          <a href="/CeciliaChang.pdf" target="_blank">
+          <NavLink to="/CeciliaChang.pdf" target="_blank">
             Resume
-          </a>
+          </NavLink>
         </div>
       </div>
     </nav>
