@@ -103,8 +103,9 @@ nav {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  justify-content: space-around;
+  justify-content: center;
   padding-top: 150px;
+  margin-top: 25px;
 }
 
 .portfolio li {
@@ -112,9 +113,8 @@ nav {
   flex-direction: column;
   justify-content: space-around;
   align-items: center;
-  width: 500px;
-  height: 500px;
-  margin: 0 3em 0 3em;
+  width: 445px;
+  height: 445px;
 }
 
 .portfolio-image {
@@ -130,7 +130,12 @@ button {
   width: 4em;
   height: 2em;
   font-size: 1em;
-  margin-top: -3em;
+  margin: -3em 0.5em 0 0.5em;
+}
+
+.buttons {
+  display: flex;
+  flex-direction: row;
 }
 
 button a {

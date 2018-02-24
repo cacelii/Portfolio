@@ -9,15 +9,17 @@ export default function Skills() {
         <li>React</li>
         <li>Redux</li>
         <li>React-Redux</li>
-        <li>Express</li>
+        <li>Express.js</li>
         <li>Node.js</li>
         <li>React Native</li>
+        <li>PostgreSQL</li>
         <li>Sequelize</li>
         <li>Git</li>
         <li>ES6</li>
         <li>HTML5</li>
         <li>CSS3</li>
         <li>Agile</li>
+        <li>REST</li>
       </ul>
       <h1>Knowledgeable</h1>
       <ul className="list">
@@ -28,15 +30,17 @@ export default function Skills() {
         <li>Jasmine</li>
         <li>Socket.io</li>
         <li>OAuth</li>
-        <li>Expo</li>
+        <li>APIs</li>
+        <li>SQL</li>
+        <li>Webpack</li>
       </ul>
       <h1>Some Familiarity</h1>
       <ul className="list">
-        <li>SQL</li>
         <li>jQuery</li>
         <li>Bootstrap</li>
         <li>Heroku</li>
-        <li>Sass</li>
+        <li>SCSS</li>
+        <li>A-Frame</li>
       </ul>
     </div>
   );
